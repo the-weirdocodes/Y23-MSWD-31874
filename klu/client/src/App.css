@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: #f5f5dc;
+}
+h1, h2, h4, h6, h3 {
+  color: black;
+}
+h1, h4{
+  line-height: 0.1;
+}
+h4, h6{
+  line-height: 0.1;
+}
+h6, h3{
+  line-height: 0.2;
+}
+h3, span{
+  line-height: 1;
+}
+.buttonContainer button {
+  background-color: #8b0000; 
+  color: #f5f5dc; 
+  padding: 8px 16px; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 15px; 
+  font-family: 'Times New Roman', Times, serif; 
+  cursor: pointer; 
+}
+
+.buttonContainer button:hover {
+  background-color: #8b0000; 
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('C:\Users\ushas\OneDrive\Documents\Desktop\MSWD\class work\klu\client\public\best-engineering-university.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center center; 
+  background-attachment: fixed;
+  height: 100vh; 
+  font-family: Arial, sans-serif;
+  color: #f5f5dc; 
+}
+.semi-transparent-box {
+  background-color: rgba(255, 252, 247, 0.582); 
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block; 
+}
+.topborder{
+  width: 100%; 
+  height: 20px; 
+  background-color: #8b0000;
+  border-bottom: 10px #8b0000;
+}
+.logo{
+  padding-top: 20px;
+}
+.ImageContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+.ImageContainer img {
+  width: 150px;
+  height: auto;
+  margin: 0 10px;
+}
+.buttonContainer{
+  display: grid;
+  grid-template-columns: auto;
+  place-items: center;
+  padding: 10px;
+}
+.ImageContainerWrapper{
+  background-color: #8b0000;
+  width: 100%; 
+  height: 200px; 
+  padding: 10px;
+  margin: 0 auto; 
+  position: absolute; 
+  bottom: 0; 
+}
+.ImageItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.ImageItem img {
+  width: 150px;
+  height: auto;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.ImageItem img:hover {
+  transform: scale(1.1);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.color{
+  color: black;
+}
+.ImageItem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 10px;
+}
+.ImageItem img{
+    width: 150px;
+    height: auto;
+}
+.ImageItem h3 {
+  color: #f5f5dc; 
+  margin-top: 10px;
+}
+.fontContainer{
+  padding: 5px;   
+}
+.table {
+  margin: 0 auto; /* Center the table horizontally */
+  border-collapse: collapse; /* Remove gaps between borders */
+}
+
+.th, td {
+  border: 1px solid black; /* Add grid lines around cells */
+  padding: 5px; /* Add padding for better readability */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.centered-red-text {
+  text-align: center;
+  color: #8b0000;
+}
+.table-container {
+  margin: 0 auto; 
+  display: flex; 
+  justify-content: center; 
+}
+.centered-font{
+  text-align: center;
+}
+.card-title{
+  color : #8b0000
+}
+.card-text{
+  color:#8b0000
+}
