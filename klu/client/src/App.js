@@ -7,24 +7,11 @@ import transport from './trans.jpeg';
 import library from './lib.jpg';
 import cafeteria from './caf.jpg';
 import Footer from './Components/Footer';
-import React, { useState } from 'react';
-import Student from './Components/Student';
-import Faculty from './Components/Faculty';
-
 
 const user={
 logo:KL_logo
  }
 function App() {
-  const [renderComponent, setRenderComponent] = useState(null);
-
-    const handleStudentClick = () => {
-      setRenderComponent('Student');
-    };
-  
-    const handleFacultyClick = () => {
-      setRenderComponent('Faculty');
-    };
   return (
     <div className="App">
       <div class="topborder"></div>
@@ -55,8 +42,6 @@ function App() {
         <h5>Cafeteria</h5>      
       </div>
      </div>
-     {renderComponent === 'Student' && <Student />}
-     {renderComponent === 'Faculty' && <Faculty />}
      <Footer/>
     </div>
      </div>
